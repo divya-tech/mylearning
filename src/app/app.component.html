@@ -1,21 +1,95 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<app-header></app-header>
 
-<router-outlet></router-outlet>
+<main role="main">
+
+  <app-slider></app-slider>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"></rect><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg>
+        <h2>Instructor-led Course</h2>
+        <p>Master in-demand job skills with linear and project-based courses. Get access to world class Learning Platform to LEARN the tools and tricks to BUILD industry grade applications under our expert guidance. Our innovative hands-on training approach, will EMPOWER you to take any future assignment with confidence.</p>
+        <p><a class="btn btn-secondary d-lg-none d-xl-none d-block" href="#" role="button">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"></rect><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg>
+        <h2>Self-paced Course</h2>
+        <p>Self-paced courses do not follow a set schedule. All of the course materials are available as soon as the course starts. You can progress through the course at your own speed. In most self-paced courses, you can request a certificate as soon as you have a passing grade in the course.</p>
+        <p><a class="btn btn-secondary d-lg-none d-xl-none d-block" href="#" role="button">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"></rect><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg>
+        <h2>Software Consulting</h2>
+        <p>We serve you with end-to-end software consulting and development solutions. Our knowledge in the consulting domain is vast and years of experiments optimizing software applications have earned us the status of leading consultant in the domain. We have helped various solutions to be implemented in the right manner.</p>
+        <p><a class="btn btn-secondary d-lg-none d-xl-none d-block" href="#" role="button">View details »</a></p>
+      </div>
+    </div>
+
+    <div class="row d-lg-flex d-xl-flex d-none">
+      <div class="col-lg-4">
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div>
+    </div>
+
+
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+    <div class="row featurette who-we-are">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Who we are. 
+          <span class="text-muted">Gangadhar is the founder of MyLearning Courses. </span></h2>
+        <p class="lead">I specialises in breaking down complex topics and understands the critical mission of learning new technology fast, comprehensively and the right way. His leading background in mentoring and JavaScript engineering blend together to give you the tools necessary to succeed on your own in the real world, through courses that follow a linear progression, to take you from zero to master.</p>
+      </div>
+      <div class="col-md-5">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/AsB54HC7MV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5 order-md-1 sector">
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">JOIN US <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">Join my mailing list to receive my curated articles, courses and exclusive discounts based on your goals/interests. We hate SPAMs and you can unsubscribe at any time.</p>
+      </div>
+      <div class="col-md-5 discount">
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <app-footer></app-footer>
+  <router-outlet></router-outlet>
+</main>

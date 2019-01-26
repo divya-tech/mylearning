@@ -1,0 +1,18 @@
+h1, p {
+  text-shadow: 1px 1px 1px black;
+}
+
+.circle {
+    border-radius: 100%;
+    background-color: rgba(0,0,0,.5);
+    width: 30px;
+    height: 30px;    
+}
+
+.circle.prev {
+  padding: 4px 4px 0 0;
+}
+
+.circle.next {
+  padding: 4px 0 0 4px;
+}
