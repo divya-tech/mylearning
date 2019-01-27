@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-slider',
+  selector: 'app-what-we-do',
   templateUrl: './what-we-do.component.html',
   styleUrls: ['./what-we-do.component.css']
 })
 
-export class SliderComponent {
+export class whatWeDoComponent {
   constructor() {} 
 
   ngOnInit() {}

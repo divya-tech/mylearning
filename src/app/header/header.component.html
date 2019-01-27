@@ -10,17 +10,29 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"   routerLink='/course'> Browse Course</a>
-            <!-- <div class="course-content">
-              <a href="#">Instructor </a>
-              <a href="#">Self - placed</a>
-              <a href="#">Softwares</a>
-            </div> -->
-
+            <a class="nav-link dropdown"> Browse Course
+              <div class="dropdown-content">
+                <a href="#">Instructor </a>
+                <a href="#">Self - placed</a>
+                <a href="#">Softwares</a>
+              </div>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">What we do</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link dropdown" href="#">Trainings
+                  <div class="dropdown-content">
+                      <!-- <div *ngFor="let course of trainings; let idx=index">
+                      <a routerLink="/trainings/idx"> {{course}}</a> 
+                       </div> -->
+                       <a routerLink='/trainings/datascience'>Data Science Courses </a>
+                       <a routerLink='/trainings/bigdata'>Big Data Courses</a>
+                       
+                    </div>
+              </a>
+            </li>
           <li class="nav-item">
             <a class="nav-link" routerLink='/contactus'>Contact Us</a>
           </li>

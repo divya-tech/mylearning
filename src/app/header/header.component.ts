@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 
 export class HeaderComponent {
+
+  trainings=["Data Science Courses","Big Data Courses"];
   constructor() {} 
 
   ngOnInit() {}
