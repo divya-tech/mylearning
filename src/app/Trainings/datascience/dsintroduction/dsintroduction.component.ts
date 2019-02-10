@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 
 export class DSIntroductionComponent {
-
+  dsintro:any;
+  constructor(){
+    this.dsintro= "/assets/Images/banner/introbanner.png";
+  }
     
 }
